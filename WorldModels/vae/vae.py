@@ -1,4 +1,5 @@
 # ConvVAE model
+#test
 
 import numpy as np
 import tensorflow as tf
