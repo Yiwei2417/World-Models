@@ -10,7 +10,7 @@ sys.path.append('/home/ubuntu/WM/WorldModels')
 sys.path
 
 np.set_printoptions(precision=4, edgeitems=6, linewidth=100, suppress=True)
-from vaegan.vae-gan import VAEGAN
+from vaegan.vaegan import VAEGAN
 from utils import PARSER
 args = PARSER.parse_args()
 gpu_devices = tf.config.experimental.list_physical_devices('GPU')
