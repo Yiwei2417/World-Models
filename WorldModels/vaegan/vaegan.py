@@ -2,7 +2,6 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm.autonotebook import tqdm
-%matplotlib inline
 from IPython import display
 import pandas as pd
 import tensorflow_probability as tfp
