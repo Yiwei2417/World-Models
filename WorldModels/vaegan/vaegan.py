@@ -1,9 +1,5 @@
 import tensorflow as tf
 import numpy as np
-import matplotlib.pyplot as plt
-from tqdm.autonotebook import tqdm
-from IPython import display
-import pandas as pd
 import tensorflow_probability as tfp
 ds = tfp.distributions
 import sys, subprocess
