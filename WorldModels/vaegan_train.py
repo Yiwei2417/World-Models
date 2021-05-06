@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     decoder = [
         tf.keras.layers.Dense(units=1 * 1 * 4*256, activation="relu"),
-        tf.keras.layers.Reshape(target_shape=(1 * 1 * 4*256)),
+        tf.keras.layers.Reshape(target_shape=(1, 1, 4*256)),
         tf.keras.layers.Conv2DTranspose(
             filters=64, kernel_size=3, strides=(2, 2), padding="SAME", activation="relu"
         ),
